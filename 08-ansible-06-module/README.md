@@ -162,9 +162,14 @@ if __name__ == '__main__':
 
 **Шаг 4.** Проверьте module на исполняемость локально.
 
+![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/08-ansible-06-module/img/4.png)
+
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
 **Шаг 6.** Проверьте через playbook на идемпотентность.
+
+![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/08-ansible-06-module/img/6.png)
+
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
@@ -184,9 +189,17 @@ if __name__ == '__main__':
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
 
+![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/08-ansible-06-module/img/15.png)
+
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
 
+![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/08-ansible-06-module/img/16.png)
+
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
+
+[tar.gz архив](https://github.com/rrr89817384657-collab/my_own_collection/blob/master/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
+
+[Репозиторий](https://github.com/rrr89817384657-collab/my_own_collection/tree/master)
 
 ## Необязательная часть
 
