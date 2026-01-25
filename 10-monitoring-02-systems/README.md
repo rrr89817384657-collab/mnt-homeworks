@@ -8,19 +8,33 @@
 выведите в мониторинг и почему?
 
 •	Загрузка CPU.
+
 Вычисления интенсивно используют CPU - нужно отслеживать перегрузку и планировать масштабирование.
+
 •	Использование оперативной памяти.
+
 Утечки памяти или рост потребления могут привести к OOM киллеру.
+
 •	Свободное место на диске:
+
 Отчёты сохраняются на диск.
+
 •	HTTP статус коды.
+
 Нужно разделять:
+
 2xx - успешные запросы;
+
 4xx -ошибки клиента (валидация, аутентификация);
+
 5xx - ошибки сервера (падение сервиса, тайм ауты).
+
 •	Время ответа HTTP.
+
 Замедление вычислений или перегрузки влияют на UX.
+
 •	Количество запросов в единицу времени.
+
 Резкий спад может означать падение сервиса, рост - нагрузку.
 
 #
@@ -29,13 +43,19 @@
 можете ему предложить?
 
 Ключевые показатели качества обслуживания (SLI)
+
 •	Доступность сервиса
+
 •	Успешность операций 
+
 •	Время выполнения запроса 
+
 •	Скорость генерации отчётов 
 
 Клиентские метрики
+
 •	Количество активных пользователей
+
 •	Доля прерванных операций
 
 #
@@ -51,6 +71,7 @@
 70%, но при этом в вашей системе нет кодов ответа 5xx и 4xx. Где у вас ошибка?
 
 Ошибка в формуле.
+
 SLA = (все_запросы - 5xx) / все_запросы
 
 #
@@ -102,7 +123,7 @@ Pull: Prometheus, Nagios.
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
 
- ![Image alt]([https://github.com/rrr89817384657-collab/ter-homeworks/blob/main/02/img/z2_1_1.png](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/7.png))
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/7.png)
 
 #
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
@@ -114,7 +135,7 @@ P.S.: если при запуске некоторые контейнеры б�
 
 Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.
 
- ![Image alt]([https://github.com/rrr89817384657-collab/ter-homeworks/blob/main/02/img/z2_1_1.png](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/8.png))
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/8.png)
 
 #
 9. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
@@ -144,7 +165,7 @@ P.S.: если при запуске некоторые контейнеры б�
 После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список `measurments` в 
 веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.
 
- ![Image alt]([https://github.com/rrr89817384657-collab/ter-homeworks/blob/main/02/img/z2_1_1.png](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/9.png))
+![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-02-systems/9.png)
 
 Факультативно можете изучить какие метрики собирает telegraf после выполнения данного задания.
 
