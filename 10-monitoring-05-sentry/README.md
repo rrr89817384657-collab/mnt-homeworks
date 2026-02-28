@@ -19,12 +19,18 @@ Free Cloud account имеет ограничения:
 
 В качестве решения задания пришлите скриншот меню Projects.
 
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/1.png)
+
 ## Задание 2
 
 1. Создайте python-проект и нажмите `Generate sample event` для генерации тестового события.
 1. Изучите информацию, представленную в событии.
 1. Перейдите в список событий проекта, выберите созданное вами и нажмите `Resolved`.
 1. В качестве решения задание предоставьте скриншот `Stack trace` из этого события и список событий проекта после нажатия `Resolved`.
+
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/2_1.png)
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/2_2.png)
+
 
 ## Задание 3
 
@@ -36,13 +42,20 @@ Free Cloud account имеет ограничения:
 `sample issue` до того, как вы его сгенерировали, и то, что правило алёртинга выставлено по дефолту (во всех полях all).
 Также проверьте проект, в котором вы создаёте событие — возможно алёрт привязан к другому.
 5. В качестве решения задания пришлите скриншот тела сообщения из оповещения на почте.
-6. Дополнительно поэкспериментируйте с правилами алёртинга. Выбирайте разные условия отправки и создавайте sample events. 
+6. Дополнительно поэкспериментируйте с правилами алёртинга. Выбирайте разные условия отправки и создавайте sample events.
+
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/3.png)
+
 
 ## Задание повышенной сложности
 
 1. Создайте проект на ЯП Python или GO (около 10–20 строк), подключите к нему sentry SDK и отправьте несколько тестовых событий.
 2. Поэкспериментируйте с различными передаваемыми параметрами, но помните об ограничениях Free учётной записи Cloud Sentry.
 3. В качестве решения задания пришлите скриншот меню issues вашего проекта и пример кода подключения sentry sdk/отсылки событий.
+
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/4.png)
+ ![Image alt](https://github.com/rrr89817384657-collab/mnt-homeworks/blob/MNT-video/10-monitoring-05-sentry/5.png)
+
 
 ---
 
